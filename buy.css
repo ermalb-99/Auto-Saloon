@@ -1,0 +1,85 @@
+body {
+     margin: 0;
+     font-family: 'Arial', sans-serif;
+     background-color: black;
+ }
+
+ header{
+     margin-top: 10vh;
+     height: 10vh;
+     background-color: black;
+     border: 1px solid white;
+ }
+
+header h1{
+     font-size: 100px;
+     color: black;
+}
+
+.box{
+     background-color: black;
+  
+}
+
+.button{
+     display: inline-block;
+     width: max-content;
+     margin-left: 80%;
+     top: 0%;
+     position: fixed;
+}
+
+.button button{
+     width: 400px;
+     height: 200px;
+     background-color: rgb(0, 0, 0);
+}
+
+.button button a{
+     text-decoration: none;
+     color:white;
+     font-size: 40px;
+}
+ 
+ .grid-container {
+     margin-top: 10vh;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(10, 1fr);
+     gap: 20px;
+     padding: 20px;
+ }
+ 
+ .grid-item {
+     background-color: #fff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+     overflow: hidden;
+     padding: 10px;
+     width: 30vw;
+     border: 3px solid rgba(255, 0, 0, 0.641);
+ }
+
+
+ .grid-item {
+     font-family: 'Genos', sans-serif; ;
+    }
+
+    .grid-item button {
+     width: 100px;
+     height: 30px;
+     
+    }
+
+   
+
+ 
+header {
+     background-color: white;
+}
+header h1{
+     font-family: 'Genos', sans-serif; 
+}
+
+
+

@@ -1,0 +1,97 @@
+body {
+     margin: 0;
+ }
+ 
+ .grid-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(6, 1fr);
+     gap: 2px;
+     padding: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+ }
+ 
+ .product {
+     border: 1px solid #ccc;
+     border-radius: 20px;
+     overflow: hidden; /* për të mbajtur pamjen e njejtë të të gjitha imazheve */
+ }
+
+ .product:hover {
+     border-radius: 200px;
+     transition: 1.2s;
+ }
+ 
+ img {
+     max-width: 100%;
+     display: block;
+ }
+
+
+
+
+
+ header{
+    width: 100%;
+    background-color: black;
+    height:max-content;
+    padding-bottom: 5px;
+    display: block;
+}
+
+header ul{
+    width: max-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-size: large;
+    font-family: 'Genos', sans-serif;
+    
+}
+
+header ul li a{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+header ul li a:hover{
+    color: wheat;
+    transition: 1.2s;
+}
+
+header h1 {
+    color: white;
+    background-color: black;
+    font-weight:lighter;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+
+.logo{
+    
+    display: block;
+    width: max-content;
+    margin: auto;
+
+}
+.logo img{
+width: 120px;
+display: block;
+padding-top:10% ;
+}
